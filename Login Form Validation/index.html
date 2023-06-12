@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Login Form</header>
+      <form action="#">
+        <div class="field email">
+          <div class="input-area">
+            <input type="text" placeholder="Email Address">
+            <i class="icon fa fa-envelope"></i>
+            <i class="error error-icon fa fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Email can't be blank</div>
+        </div>
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="Password">
+            <i class="icon fa fa-lock"></i>
+            <i class="error error-icon fa fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Password can't be blank</div>
+        </div>
+        <div class="pass-txt"><a href="#">Forgot password?</a></div>
+        <input type="submit" value="Login">
+      </form>
+      <div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

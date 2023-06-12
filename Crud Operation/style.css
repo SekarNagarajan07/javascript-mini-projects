@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#input-container {
+  margin-bottom: 20px;
+}
+
+#name-input,
+#email-input,
+#update-name-input,
+#update-email-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#name-input:focus,
+#email-input:focus,
+#update-name-input:focus,
+#update-email-input:focus {
+  border-color: #9b9fb5;
+  outline: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff8c42;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/* button:hover {
+  background-color: #947d6a;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #636b61;
+  color: #fff;
+}
+
+#update-container {
+  display: none;
+  margin-top: 20px;
+}
+
+#update-btn {
+  background-color: #295135;
+}
+
+#cancel-btn {
+  background-color: #ef271b;
+}
+
+.edit-btn {
+  background-color: #23395b;
+}
+
+.delete-btn {
+  background-color: #18a999;
+  margin-left: 10px;
+}
