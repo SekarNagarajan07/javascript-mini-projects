@@ -84,3 +84,17 @@ form {
   padding: 10px;
   text-transform: capitalize;
 }
+
+#show-more-button {
+  background-color: #001d3d;
+  font-size: 18px;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
