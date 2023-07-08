@@ -19,5 +19,22 @@ async function searchImage() {
   if (page === 1) {
     searchResultEl.innerHTML = "";
   }
+
+  results.map((result) => {
+    //div
+    const imageWrapper = document.createElement("div");
+    imageWrapper.classList.add("search-result");
+
+    //image
+    const image = document.createElement("img");
+    image.src = result.urls.small;
+    image.alt = result.alt_description;
+
+    //imagelink
+    const imageLink = document.createElement("a");
+    imageLink.href = result.links.html;
+    imageLink.target = "_blank";
+    imageLink.textContent = result.alt_description;
+  });
 }
 searchImage();
