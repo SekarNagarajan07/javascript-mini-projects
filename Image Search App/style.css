@@ -17,3 +17,33 @@ h1 {
   text-align: center;
   margin: 40px 0 60px 0;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#search-input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #001d3d;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #001d3d;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
